@@ -1,0 +1,38 @@
+# Ignore VSCode settings
+.vscode/
+
+# Ignore macOS debug symbols
+pair.dSYM/
+QuickSort.dSYM/
+vector.dSYM/
+
+# Ignore build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Ignore CMake and Make build folders
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore user-specific files
+*.log
+*.tmp
+
+# Ignore all except C++ source/header files
+!*.cpp
+!*.cc
+!*.cxx
+!*.c++
+!*.h
+!*.hpp
+!*.hh
+!*.hxx
+!*.h++
